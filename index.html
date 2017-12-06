@@ -1,0 +1,60 @@
+<html lang="en">
+<head>
+<!-- Title as required -->
+<title>Stamford Shopping Center</title>
+
+<!-- imported bootstrap CSS, JS and bootstrap font-awsome-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
+
+<!-- Adding JQuery cdn -->
+<script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous">
+ </script>
+ 
+ <!-- font awesome cdn -->
+ <script src="https://use.fontawesome.com/b94debbc69.js"></script>
+ 
+</head>
+<body>
+<div class="container">
+  <div class="row">
+   <div class="col-md-12">
+   <h1 class="text-center">Stamford Shopping Center</h1>
+   </div>
+   <div class="col-md-12">
+   <p class="lead text-center">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.
+   </p>
+   </div>
+  </div>
+  <div class="row">
+   <div class="col-md-6">
+   <p id="calender"></p>
+  <!-- <img src="images/bakery_image.png" alt="Mountain View" width="500px"> -->
+   </div>
+   <div class="col-md-6 jumbotron">
+    <h2><span id="greeting">Hello</span>, <span id="customer-name">CUSTOMER</span>!</h2> 
+    <p>Free shipping on all orders!</p>
+	
+	<ul id="product-list" class="list-group">
+	<div id="pro0"></div>
+    <div id="pro1"></div>
+    <div id="pro2"></div>
+    <div id="pro3"></div>
+    <div id="pro4"></div>
+    <div id="pro5"></div>
+	</ul>
+    <h3>Total price is <span id="price">$[price]</span>&nbsp;<span class='label label-danger'>25% off</span></h3>
+    <p><a class="btn btn-primary btn-lg" href="#" role="button">Pay now</a></p>
+   </div>
+   <footer>Daniel Goncalves &copy; Stamford University</footer>
+   <br>
+  </div>
+</div>
+<!-- attaching shop javascript -->
+ <script type="text/javascript" src="js/shop.js"></script>
+</body>
+</html>
